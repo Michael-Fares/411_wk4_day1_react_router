@@ -35,6 +35,13 @@ ul {
   margin: 50px;
 }
 
+.car-container-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px
+}
+
 .car-paper {
   padding: 50px;
 }
