@@ -32,7 +32,7 @@ const Car = (props) => {
                 </CardContent>
                 <Divider />
                 <CardActions style={{ color: 'mediumblue' }}>
-                    <Link to="/home">Go Back</Link>
+                    <Link to="/">Go Back</Link>
                 </CardActions>
             </Card>
         </div>

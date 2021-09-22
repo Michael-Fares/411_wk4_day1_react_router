@@ -23,7 +23,7 @@ import Car from './components/Car'
 const Router = () => {
     return (
       <Switch>
-        <Route path="/home" component={Home}></Route>
+        <Route exact path="/" component={Home}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/car/:id" component={Car}></Route>
       </Switch>
